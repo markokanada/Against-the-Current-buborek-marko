@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buborék Márkó - CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/149b052d82.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!--A kód tartalmaz több olyan részletet, aminek kidolgozását megkezdtem, majd időhiányában elvetettem.-->
+</head>
+
+<body onload="">
+    <nav>
+
+        <ul class="menu">
+
+            <li class="logo"><a href="#">Against the Current</a></li>
+
+            <li class="item"><a href="#home">Home</a></li>
+
+            <li class="item"><a href="#ismerteto">Ismertető</a></li>
+
+            <li class="item"><a href="#">Ismertebb zenék</a></li>
+
+
+            <li class="item"><a href="#gallery">Galléria</a></li>
+
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="CSSgal">
+
+        <s id="s1"></s>
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <s id="s4"></s>
+
+        <div id="home" class="slider ">
+            <div class="background text-slide" style="background-position: top; background-repeat:no-repeat;background-image:url(images/FJevgWXVIAMalXA.jpg-large.jpeg);">
+            </div>
+            <div class="background " style="background-position: top; background-repeat:no-repeat;background-image:url(images/rs-245473-against-the-current-talk-covers.jpg.webp);">
+
+            </div>
+            <div class="background" style="background-position: top; background-repeat:no-repeat;background-image:url(images/OG.jpg.webp);">
+            </div>
+
+        </div>
+
+        <div class="prevNext">
+            <div>
+                <a href="#s4"><i class="fa-solid fa-arrow-left"></i></a>
+                <a href="#s2"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div>
+                <a href="#s1"><i class="fa-solid fa-arrow-left"></i></a>
+                <a href="#s3"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div>
+                <a href="#s2"><i class="fa-solid fa-arrow-left"></i></a>
+                <a href="#s1"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+        <!--
+        <div class="bullets">
+            <a href="#s1">1</a>
+            <a href="#s2">2</a>
+            <a href="#s3">3</a>
+        </div>
+        -->
+
+    </div>
+
+
+    <div class="content">
+        <h1 class="text-center">Against The Current </h1>
+
+        <div id="ismerteto" class="cards2">
+            <div class="card2">
+                <div class="text">
+                    <p>Az Against the Current rövidítve ATC egy amerikai rock, pop, alternatív műfajban tevékenykedő hazánkban kevésbé ismert együttes. Legismertebb hazánkban is ismert zenéjük a "Strangers again" illetve a játékos (gamer), esport közösségbn
+                        ismert League of Legend ismert zenéje, vagyis a "Legends never die". Az együttes három tagból áll a kezdetek óta:
+                        <ul>
+                            <li class="color-gray">Chrissy Costanza - Lead singer</li>
+                            <li class="color-gray">Dan Gow - Lead guitar</li>
+                            <li class="color-gray">Will Ferri- Lead drumer</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="card2"><img class="responsive" src="images/3539841.webp"></div>
+
+        </div>
+
+
+    </div>
+
+    <h1 class="text-center"> Ismertebb zenék</h1>
+    <div class="videok">
+        <div class="cards3">
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/abEqJxDWPuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/0rLL-1Rw_GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/sURhALFOo6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/W6FixoUyQQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/PD8q6R-AiO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/oXFEMV919Pk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/S34KpOAgyTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/r6zIGXun57U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/PvVhUo-PvVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/Ddo6_59gasU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/c6fqx3q_08M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="video-container">
+                    <iframe class="img-fluid embed object" width="560" height="315" src="https://www.youtube.com/embed/hXnbOA0G9Cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 id="gallery" class="text-center">Galléria</h1>
+    <div class="gallery">
+
+        <div class="row2">
+            <div class="column2">
+                <img src="images/075679800312-cover-zoom.jpg">
+                <img src="images/245_ATC_GROUP_960x.progressive.webp">
+                <img src="images/3134027.webp">
+                <img src="images/336-3368569_alex-goot-and-against-the-current.jpg">
+                <img src="images/3539841.webp">
+
+
+            </div>
+            <div class="column2">
+                <img src="images/against-the-current-55d8b14960325.jpg">
+                <img src="images/against-the-current-55d8b16e592a3.jpg">
+                <img src="images/against-the-current.jpg">
+                <img src="images/against.jpg">
+                <img src="images/ATC-LEC-2022-Colin-Young-Wolff.jpg">
+                <img src="images/ATC-Pub-3-Beth-Saravo-lores.jpg">
+                <img src="images/aee914b7bd29d5691a92d43dd1b06c46.jpeg">
+            </div>
+            <div class="column2">
+                <img src="images/ATC_Band.jpg">
+                <img src="images/b8d46b98789c7c7c664c7be9846a7832.jpeg">
+                <img src="images/FJevgWXVIAMalXA.jpg-large.jpeg">
+                <img src="images/maxresdefault (1).jpg">
+                <img src="images/maxresdefault.jpg">
+                <img src="images/OG.jpg.webp">
+                <img src="images/rs-245473-against-the-current-talk-covers.jpg.webp">
+            </div>
+            <div class="column2">
+                <img src="images/wp2384389.webp">
+                <img src="images/q.jpeg">
+                <img src="images/qq.jpeg">
+                <img src="images/qqq.jpeg">
+                <img src="images/qqqq.webp">
+                <img src="images/qqqqq.jpeg">
+                <img src="images/85i8a8-againstthe-master.jpg">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <footer>
+            <div class="row primary">
+                <div class="column about">
+                    <h3>Against the Current</h3>
+                    <p>
+                        Az oldalon felhasznált tartalom az Against the Current különböző Social oldalairól lett jogszerűen felhasználva.
+                    </p>
+                    <div class=" social">
+                        <a target="_blank" href="https://www.facebook.com/againstthecurrentband/"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/againstthecurrent/?hl=hu"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a target="_blank" href="https://twitter.com/atc_band"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCxMsgwldMZiuFTD6jjv32yQ"><i class="fa-brands fa-youtube-square"></i></a>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="row copyright">
+                    <p>Copyright &copy; 2023 Buborék Márkó</p>
+                </div>
+        </footer>
+        </div>
+</body>
+
+</html>
